@@ -1,0 +1,40 @@
+.pokemonGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header {
+    text-align: center;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+}
+
+.pokemon {
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.pokemon:hover {
+    padding-left: 4px;
+}
+
+.fight-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
